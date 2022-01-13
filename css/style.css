@@ -85,3 +85,27 @@ header a:link, a:visited {
 }
 
 
+
+.backwardnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.backwardnav a:link, a:visited {
+
+    color: black !important;
+    font-weight: bold;
+   
+    text-decoration: none;
+}
+
+#back_arrow {
+    flex: 1;
+    padding: 1rem;
+}
+#subject_title{
+    font-size: 2rem;
+    flex: 4;
+    padding: 1rem;
+}

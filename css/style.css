@@ -68,6 +68,13 @@ header a:link, a:visited {
 
 }
 
+.container > div a:link, a:visited {
+
+    color: black !important;
+    font-weight: bold;
+   
+    text-decoration: none;
+}
 .container > div {
     background-color: #1CF82B;
     border: 1px solid black;

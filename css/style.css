@@ -15,8 +15,8 @@ header {
 
 .headerlink{
     font-weight: bolder;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -35,7 +35,8 @@ header a:link, a:visited {
 
 #logo {
     flex: 1;
-    font-size: xx-large;
+    font-size: x-large;
+    padding-top: 1rem;
 }
 
 #navlink_0 {

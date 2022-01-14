@@ -20,6 +20,7 @@ header {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
+    box-shadow: 10px 5px 5px #96CEB4;
    
     
 }
@@ -35,6 +36,7 @@ header a:link, a:visited {
 
 #logo {
     flex: 1;
+    box-shadow: none;
     font-size: xx-large;
 }
 
@@ -42,7 +44,8 @@ header a:link, a:visited {
     padding-top: 1rem;
     padding-bottom: 1rem;
     flex: 1;
-    border: 1px solid #B8B8B8;   
+    border: 1px solid #B8B8B8; 
+      
 }
 
 #navlink_1 {
@@ -76,12 +79,13 @@ header a:link, a:visited {
     text-decoration: none;
 }
 .container > div {
-    background-color: #fa7900;
+    background-color: #ffffff00;
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
     padding: 3em;
     margin: 1em;
+    box-shadow: 3px 3px #96CEB4;
 }
 
 

@@ -13,9 +13,7 @@ step 1 : make a new directory .
     
 step 2 :  clone these repo .
 
-
-
-  git clone https://github.com/baramsivaramireddy/notes.git
+    git clone https://github.com/baramsivaramireddy/notes.git
 
 
     

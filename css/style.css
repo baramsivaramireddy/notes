@@ -6,12 +6,13 @@
     
 body {
     color: rgba(255, 255, 255, 0);
-    background-image: url("../app/notes\ logo.png");
-    background-color: rgba(0, 0, 0, 0);
-    background-attachment:local;
-    background-repeat: no-repeat;
+    /*
+    background-image: url("../app/notes\ logo.png");*/
+    background-color: rgb(0, 0, 0);
+    /*
     background-size: cover;
-}
+    background-repeat: no-repeat;*/
+   }
 
 header {
     display: flex;
@@ -101,10 +102,10 @@ header a:link, a:visited {
 main{
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    /*background-image: url("../app/notes\ logo.png");*/
+    background-image: url("../app/notes\ logo.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
+    background-size: 50% 50%;
+    background-position:center;
     background-attachment:fixed;
 }
 

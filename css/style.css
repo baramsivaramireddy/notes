@@ -2,13 +2,18 @@
     margin: 0;
 }
 
-    
+@font-face {
+    font-family: Dongle-Regular;
+    src: url('../app/Dongle-Regular.ttf');
+}    
     
 body {
     color: rgba(255, 255, 255, 0);
     /*
     background-image: url("../app/notes\ logo.png");*/
     background-color: rgb(0, 0, 0);
+    font-family: Dongle-Regular;
+    font-size: 3rem;
     /*
     background-size: cover;
     background-repeat: no-repeat;*/
@@ -21,6 +26,7 @@ header {
    flex-wrap: wrap;
     border: 1px solid #B8B8B8;
     background-image: url();
+    font-size: 3rem;
 
 }
 
@@ -49,7 +55,7 @@ header a:link, a:visited {
 #logo {
     flex: 1;
     box-shadow: none;
-    font-size: xx-large;
+    font-size: 4rem;
 }
 
 #navlink_0 {

@@ -2,32 +2,54 @@
 <html lang="en">
     <link rel="icon" href="./app/notes logo.png">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4V4CGRL9WL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4V4CGRL9WL');
+</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to CSD - NOTES</title>
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/style.css" >
+  
 </head>
 <body>
     
     <header >
-        <div style="box-shadow: none;" id="logo" class="headerlink" >
-        CSD - NOTES 
+        <div  id="logo" class="headerlink" >
+        CSD-NOTES 
        
         </div>
 
-    
-        <div id="navlink_0" class="headerlink">
-            <a href="index.html"> Home</a>
-        </div>
-        <div id="navlink_1" class="headerlink">
-            <a href="./app/csd_notes.apk">  Download App</a>
-        </div>
-        <div id="navlink_2" class="headerlink">
-            <a href="./templates/About.html">About</a>
-        </div>
-    </header>     
+        
+            <div id="navlink_0" class="headerlink">
+                <a href="index.html"> Home</a>
+            </div>
+            <div id="navlink_1" class="headerlink">
+
+                <!-- &nbsp is for empty space -->
+                <a href="./app/csd_notes.apk"> Download Apk</a>
+            </div>
+            <div id="navlink_1" class="headerlink">
+                <a href="./templates/About.html">About</a>
+            </div>
+            <div id="menu"   >
+                <a href="javascript:void(0);"> <i class="material-icons" style="font-size:2rem;" >menu</i></a>
+            </div>
+
+    </header>    
+              <div id="phone_menu">
+
+                <a href="./app/csd_notes.apk" style="color: white; ">  Download Apk</a> 
+                <a href="./templates/About.html">About</a>
+
+                </div>   
     <main  >
         <h1>CSE - DATASCIENCE</h1>
         <a>Of the CSD by the CSD for the CSD.</a>
@@ -61,4 +83,5 @@
 </body>
     </main>
     <footer>CREATED AND MANAGED FOR CSE-DATASCIENCE </footer>
+    <script src="./js/script.js"></script>
 </html>

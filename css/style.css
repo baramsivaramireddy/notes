@@ -13,7 +13,7 @@ body {
     background-image: url("../app/notes\ logo.png");*/
     background-color: rgb(0, 0, 0);
     font-family: Dongle-Regular;
-    font-size: 145%;
+    font-size: 135%;
     /*
     background-size: cover;
     background-repeat: no-repeat;*/
@@ -36,10 +36,10 @@ header {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     text-align: center;
-    box-shadow: 10px 5px 5px #96CEB4;
-    font-size: 170%;
+    /* box-shadow: 10px 5px 5px #96CEB4; */
+    /* font-size: 170%; */
    
     
 }
@@ -55,14 +55,16 @@ header a:link, a:visited {
 
 #logo {
     flex: 1;
-    box-shadow: none;
-    font-size: 250%;
+    box-shadow : none;
+    font-size : 3rem;
+    margin-top : 1rem;
+    
 }
 
 #navlink_0 {
     
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    
     flex: 1;
     border: 1px solid #B8B8B8; 
       
@@ -70,20 +72,20 @@ header a:link, a:visited {
 
 #navlink_1 {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    
     flex: 1;
     border: 1px solid #B8B8B8;   
 }
 #navlink_2 {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+   
     flex: 1;
     border: 1px solid #B8B8B8;
     
 }
 
 .container {
-    size: 10px 10px 20px;
+    
     border: 2px, solid rgba(0, 0, 0, 0);  
     border-radius: 12px;
     display: flex;
@@ -175,6 +177,10 @@ main{
     border-radius: 50% 50% 0 0;
     height: 180%;
 }
+
+
+
+/* for lighting button  */
 
 .light-button a{
     position: relative;
@@ -374,3 +380,51 @@ main{
         bottom: 100%;
     }
 }
+
+
+
+/* for responsive header  */
+
+
+/* hiding the menu in desktop mood */
+#menu {
+    display: none;
+}
+
+#phone_menu {
+    display: none;
+    
+
+}
+
+#phone_menu > a {
+    border:     1px solid white;
+
+}
+
+/* for mobile phone displaying hamburger menu */
+@media screen and (max-width: 600px) {
+    .headerlink {
+        display: none;
+    }
+
+
+    #logo {
+        display: block;
+        text-align: left;
+        
+
+
+    }
+  
+    #menu  {
+        display: block;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        
+    }
+    
+ 
+  }
+
+

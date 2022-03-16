@@ -2,18 +2,21 @@
     margin: 0;
 }
 
+
 @font-face {
-    font-family: Dongle-Regular;
-    src: url('../app/Dongle-Regular.ttf');
-}    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+} 
+   
     
 body {
     color: white;
     /*
     background-image: url("../app/notes\ logo.png");*/
     background-color: rgb(0, 0, 0);
-    font-family: Dongle-Regular;
-    font-size: 135%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 90%;
     /*
     background-size: cover;
     background-repeat: no-repeat;*/
